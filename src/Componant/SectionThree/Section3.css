@@ -1,0 +1,114 @@
+.section3{
+    /* background-image:linear-gradient(to bottom, #eaddff, #ffd4ed); */
+    padding: 5%;
+}
+.section3Div{
+    text-align: center;
+}
+.section3Div h3{
+    font-weight: 700;
+}
+.secondRow{
+    display: flex;
+}
+.Section3Row2Col2{
+ display: flex;
+ margin:20px 10px;
+}
+.row2Col1Col2{
+    margin: 30px;
+}
+.Col2{
+    margin-right: 170px;
+}
+.Section3Row2Col2 h6 ,.Section3Row2Col2 h5{
+    text-align: start;
+   }
+   .section3Img{
+      width: 550px;
+   }
+.Section3Row2Col2 h5{
+    font-weight: 600 ;
+}   
+.Section3Row2Col2 h6{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 400 ;
+}   
+.Section3Row2Col2 a{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0a6aa6;
+    border-radius: 15%/50%;
+    color: white !important;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1250px) {
+    .Col2{
+        margin-right: 100px;
+    }
+    .section3Img{
+        width: 500px;
+     }
+}
+@media screen and (max-width: 1150px) {
+    .Col2{
+        margin-right:0px;
+    }
+    .section3Img{
+        width: 450px;
+     }
+}
+@media screen and (max-width: 1050px) {
+    .Col2{
+        margin-right:0px;
+        margin-left: 0px;
+    }
+    .section3Img{
+        margin-top: 50px;
+        width: 400px;
+     }
+}
+@media screen and (max-width: 850px) {
+    .section3Img{
+        margin-top: 100px;
+        width: 300px;
+     }
+     .section3{
+        padding: 2%;
+        
+    }
+    .row2Col1Col2{
+        margin: 15px;
+    }
+    @media screen and (max-width: 750px) {
+        .secondRow{
+            display: flex;
+            flex-direction: column;
+        }
+        .section3Img{
+            margin-top: 10px;
+            width: 300px;
+         }
+       
+     }
+     @media screen and (max-width: 600px) {
+        .section3Div h3{
+            font-weight: 700;
+            font-size: 1.4em;
+        }
+        .Section3Row2Col2 h5{
+            font-size: 1em;
+        }   
+        .Section3Row2Col2 h6{
+           font-size: 0.9em;
+        }  
+        .Section3Row2Col2 a{
+            font-size: 0.8em;
+            padding: 7px 15px; 
+        }
+
+     }
+
+}

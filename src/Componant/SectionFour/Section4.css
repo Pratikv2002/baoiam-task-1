@@ -1,0 +1,112 @@
+.Section4Div{
+    margin: 20px;
+    display: flex;
+    padding: 3% 7%;
+}
+.Section4Row2Col2{
+    display: flex;
+    margin:20px 10px;
+   }
+   /* .row2Col1Col2{
+    margin: 30px;
+} */
+.sec4Col2{
+   padding-left: 100px;
+}
+.Section4Row2Col2 h6 ,.Section4Row2Col2 h5{
+    text-align: start;
+   }
+   .section4Img{
+       width: 550px;
+   }
+.Section4Row2Col2 h5{
+    font-weight: 600 ;
+}   
+.Section4Row2Col2 h6{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 400 ;
+}   
+.Section4Row2Col2 h3{
+  font-weight: 600;
+}
+.Section4Row2Col2 a{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0a6aa6;
+    border-radius: 15%/50%;
+    color: white !important;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1250px) {
+    .sec4Col2{
+        padding-left:0px;
+     }
+     .section4Img{
+        width: 500px;
+        padding-top: 70px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .Section4Div{
+        padding: 2% 4%;
+    }
+    .section4Img{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .Col2{
+        margin-right:0px;
+        margin-left: 0px;
+    }
+    .Section4Div{
+        padding: 2% 2%;
+    }
+    .row2Col1Col2{
+        margin: 0px;
+    }
+    .section4Img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Section4Div{
+        padding: 2% 0%;
+    }
+    .section4Img{
+        width: 350px;
+        padding-top: 70px;
+    }
+    @media screen and (max-width: 750px) {
+        .Section4Div{
+            display: flex;
+            flex-direction:column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .section4Img{
+            padding-top: 0px;
+            width: 300px;
+         }
+       
+     }
+     @media screen and (max-width: 600px) {
+        .Section4Div h3{
+            font-size: 1.4em;
+        }
+        .Section4Row2Col2 h5{
+            font-size: 1em;
+        }   
+        .Section3Row2Col2 h6{
+           font-size: 0.9em;
+        }  
+        .Section4Row2Col2 a{
+            font-size: 0.8em;
+            padding: 7px 15px; 
+        }
+
+     }
+
+}

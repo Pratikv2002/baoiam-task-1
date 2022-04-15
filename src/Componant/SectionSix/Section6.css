@@ -1,0 +1,123 @@
+/* .Section6{
+    background-image:linear-gradient(to top, #ffecdc, #ffcdc5)
+} */
+.Section6Div{
+    margin: 20px;
+    display: flex;
+    padding: 3% 7%;
+}
+.Section6Row2Col2{
+    display: flex;
+    margin:20px 10px;
+   }
+   .row2Col1Col2{
+    margin: 30px;
+}
+.sec6Col2{
+   padding-left: 100px;
+}
+.Section6Row2Col2 h6 ,.Section6Row2Col2 h5{
+    text-align: start;
+   }
+   .section6Img{
+       padding-top: 50px;
+       height: 470px;
+       width: 390;
+   }
+.Section6Row2Col2 h5{
+    font-weight: 600 ;
+}   
+.Section6Row2Col2 h6{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 400 ;
+}   
+.Section6Row2Col2 h3{
+  font-weight: 650;
+}
+.Section6Row2Col2 a{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0a6aa6;
+    border-radius: 15%/50%;
+    color: white !important;
+    font-weight: 600;
+}
+@media screen and (max-width: 1250px) {
+    .sec6Col2{
+        margin-right: 100px;
+        padding-left: 0px;
+    }
+    .section6Img{
+        width: 500px;
+     }
+}
+@media screen and (max-width: 1150px) {
+    .sec6Col2{
+        margin-right:0px;
+        
+    }
+    .section6Img{
+        width: 450px;
+     }
+     .Section6Div{
+         padding: 0px;
+     }
+}
+@media screen and (max-width: 1050px) {
+    .sec6Col2{
+        margin-right:0px;
+        margin-left: 0px;
+    }
+    .section6Img{
+        margin-top: 50px;
+        height: 400px;
+        width: 400px;
+     }
+}
+@media screen and (max-width: 850px) {
+    .section6Img{
+        margin-top: 100px;
+        height: 350px;
+        width: 350px;
+     }
+     .section6{
+        padding: 2%;
+        
+    }
+    .row2Col1Col2{
+        margin: 15px;
+    }
+    @media screen and (max-width: 750px) {
+        .Section6Div{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .section6Img{
+            padding: 0px;
+            width: 300px;
+            height: 300px;
+            margin-top: 10px;
+         }
+       
+     }
+     @media screen and (max-width: 600px) {
+        .Section6Div h3{
+            font-weight: 700;
+            font-size: 1.4em;
+        }
+        .Section6Row2Col2 h5{
+            font-size: 1em;
+        }   
+        .Section6Row2Col2 h6{
+           font-size: 0.9em;
+        }  
+        .Section6Row2Col2 a{
+            font-size: 0.8em;
+            padding: 7px 15px; 
+        }
+
+     }
+
+}

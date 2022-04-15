@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Lora','PT Serif', serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Libre Baskerville','Lora','PT Serif', serif; */
+}

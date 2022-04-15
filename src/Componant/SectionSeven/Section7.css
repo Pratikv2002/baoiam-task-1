@@ -1,0 +1,106 @@
+.section7Div{
+    text-align: center;
+}
+.section7Div1Inside{
+    margin: 50px 160px;  
+}
+.section7Div2One{
+    /* padding-left: 65px; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.section7Div1 h3{
+    font-weight: 700;
+    text-align: center;
+}
+.advantages{
+    border-radius: 20px;
+    background-color: burlywood;
+    width:250px ;
+    padding: 15px 20px 50px 20px;
+    box-shadow: 5px 5px 30px 0px rgb(83, 78, 78);
+    margin: 30px;
+}
+.advantages h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.advantages p{
+    font-size: 16px;
+}
+.advantages img{
+    margin: 5px 0px;
+}
+
+.advantages1{
+background-image: linear-gradient(to bottom, #d0ffc0, #fffcde);
+}
+.advantages2{
+    background-image:  linear-gradient(to bottom, #caebff, #c7fbff 100%)
+}
+.advantages3{
+    background-image:linear-gradient(to top, #ffecdc, #ffcdc5)
+}
+.advantages4{
+    background-image:linear-gradient(to bottom, #eaddff, #ffd4ed)
+}
+.advantages5{
+    background-image:linear-gradient(to bottom, #fff4b5, #fffce4)
+}
+
+@media screen and (max-width: 1350px) {
+    .section7Div1Inside{
+        margin: 50px 50px;  
+    }
+}
+@media screen and (max-width: 1150px) {
+    .section7Div1Inside{
+        margin: 50px 10px;  
+    }
+}
+@media screen and (max-width: 950px) {
+    .section7Div1Inside{
+        margin: 50px 10px;  
+    }
+    .section7Div2One{
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content:left;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+    }
+    .advantagesA{
+        overflow-x: scroll;
+    }
+    .advantages{
+        background-color: burlywood;
+        min-width:250px ;
+        padding: 10px 10px 20px 10px;
+        margin: 15px;
+        box-shadow: 5px 5px 10px 0px rgb(83, 78, 78);
+    }
+}
+@media screen and (max-width: 800px) {
+    .section7Div1 h3{
+        font-size: 1.5em;
+       margin: 0px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .advantages{
+        min-width:220px ;
+    }
+    .advantages h5{
+        font-size: 17px;
+    }
+    .advantages p{
+        font-size: 15px;
+    }
+    .section7Div1 h3{
+        font-size: 1.2em;
+        padding: 0px 20px;
+    }
+}

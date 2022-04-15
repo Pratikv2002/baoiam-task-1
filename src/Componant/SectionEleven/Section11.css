@@ -1,0 +1,180 @@
+.section11{
+    text-align: center;
+    padding: 20px 0px;
+}
+.section11 h2{
+  font-weight: 700;
+}
+.mainBox{
+    padding: 50px 0px;
+}
+.sliderBox{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+.card{
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0,0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 350px;
+    width: 270px;
+    margin: 20px 70px;
+    border-top: 2px solid rgba(255, 255, 255,0.7);
+    border-left: 2px solid rgba(255, 255, 255,0.7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardContent{
+    padding: 8px;
+    text-align: center;
+}
+.cardContent h4{
+    font-weight: 800;
+}
+.cardContent p{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.section11DivB{
+  display: none !important;
+}
+.card:hover{
+   /* animation 1 */
+     /* -webkit-animation: anvil 1s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+     visibility: visible;
+     z-index: 200;
+     opacity: 1; */
+     /* animation 2 */
+     /* -webkit-animation: pop-swirl 1s ease forwards; 
+     visibility: visible;
+     z-index: 200;
+     opacity: 1; */
+     /* animation: popup 0.7s; */
+     transform: scale(1.1);
+     box-shadow: 20px 20px 50px rgba(0, 0, 0,0.7);
+     background-color: rgba(255, 255, 255, 0.5);
+}
+@keyframes anvil {
+    0% {
+      transform: scale(5) rotate(0);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    50% {
+      transform: scale(1) rotate(-0.2deg);
+      opacity: 1;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0.5);
+    }
+    75% {
+      transform: scale(1) rotate(0.2deg);
+      opacity: 1;
+      box-shadow: 0 0 250px rgba(241, 241, 241, 0.5);
+    }
+    100% {
+      transform: scale(1) rotate(0);
+      opacity: 1;
+      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+    }
+  }
+  @keyframes pop-swirl {
+    0% {
+      transform: scale(0) rotate(360deg);
+    }
+    60% {
+      transform: scale(0.8) rotate(-10deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
+  }
+  
+  /* .card:target .popup{
+    animation: popup 0.7s;
+  } */
+  
+  @keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.4);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  @media screen and (max-width: 1330px) {
+    .section11DivB{
+      display: flex !important;
+      overflow-x: scroll;
+      padding: 10px 15px;
+    }
+    .carousel{
+      display: none;
+      justify-content: start;
+    }
+    .card{
+     min-width: 290px;
+     margin: 20px 40px;
+     box-shadow: 20px 10px 40px rgba(0, 0, 0,0.5);
+  }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .card{
+      min-width: 290px;
+      margin: 15px 15px;
+   }
+   .section11 h2{
+     font-size: 1.7em;
+     padding: 0px 10px;
+   }
+   .card:hover{
+    transform: scale(1.02);
+   }
+  }
+  @media screen and (max-width: 750px) {
+    .card{
+      min-width: 270px;
+      margin: 15px 15px;
+   }
+   .section11 h2{
+     font-size: 1.5em;
+   }
+   .cardContent h4{
+    font-weight: bolder !important;
+   }
+  }
+  @media screen and (max-width: 500px) {
+    .section11 h2{
+      font-size: 1.4em !important;
+      padding: 0px 10px;
+    }
+    .card{
+      min-width: 240px;
+      margin: 15px 15px;
+   }
+   .cardContent h4{
+  font-size: 1.2em;
+}
+.cardContent p{
+    font-size: 1em;
+    margin-top: 30px;
+    font-weight: 700;
+}
+  }

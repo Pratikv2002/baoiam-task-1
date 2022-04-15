@@ -1,0 +1,118 @@
+
+* {
+    font-family: Open Sans;
+  }
+  
+  .bg-dark {
+    background-color: #21325b !important;
+  }
+  
+  .brand {
+    width: 100%;
+    max-width: 7.5rem;
+  }
+  
+  .nav-white .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .nav-sm .nav-link {
+    font-size: 0.875rem;
+  }
+  
+  .nav-x-0 .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .footer5 {
+    padding: 4rem 0 0 !important;
+  }
+  
+  .space-1,
+  .space-bottom-1 {
+    padding-bottom: 2rem !important;
+  }
+  
+  .space-1,
+  .space-top-1 {
+    padding-top: 2rem !important;
+  }
+  
+  .space-1 .rightsPart {
+    text-align: left;
+  }
+  hr {
+    border-top: 1px solid;
+    opacity: 0.5;
+    border-top-color: rgb(231, 234, 243);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .home-dropdown {
+    border-top: 3px solid #377dff;
+    animation: slideup 0.3s ease;
+    width: 250px !important;
+  }
+  
+  .home-dropdown .dropdown-item {
+    font-size: 14px !important;
+    padding: 10px 20px;
+  }
+  
+  .home-dropdown .dropdown-item:hover {
+    color: #377dff;
+  }
+  
+  .footer_image{
+    margin-top: 2.5rem;
+    margin-left: -13px;
+    width: 90%;
+  }
+  
+  .btn55 {
+    padding: 0.5rem 1.285rem;
+    font-size: 1.2rem;
+    margin-top: -15px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #377dff;
+    color: #fff;
+    margin-bottom: -10px;
+  }
+  
+  .btn55:hover{
+    color: #21325b;
+    background-color: white;
+  }
+  
+  @media (max-width: 550px) {
+    .px-100 {
+      padding: 0 10px;
+    }
+    .mylavbar .nav-item {
+      padding-top: 0;
+      text-align: center;
+      padding-bottom: 0.5rem;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+  
+    .text-center-m {
+      text-align: initial;
+    }
+  }
+  h1{
+    color: red;
+  }

@@ -1,0 +1,58 @@
+.section2{
+padding: 30px 100px;
+}
+.section2row1{
+    margin-bottom: 30px;
+}
+.section2Div{
+    margin: auto;
+}
+.heading{
+    margin-top: 40px;
+    text-align: center;
+}
+.heading h2{
+    font-weight: 700;
+}
+.section2row1{
+    /* display: flex; */
+    margin-top: 50px;
+}
+.whyBaoiam{
+    width: 210px;
+    text-align: center;
+}
+.whyBaoiam h6{
+    font-weight: 600;
+}
+.whyBaoiam img{
+    height: 80px;
+}
+@media screen and (max-width: 800px) {
+    .section2{
+        padding: 30px 30px;
+        }
+}
+@media screen and (max-width: 750px) {
+    .section2row1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading h2{
+       font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 750px) {
+    .heading h2{
+       font-size: 1.2em;
+    }
+    .whyBaoiam h6{
+        font-size: 1em;
+    }
+    .whyBaoiam{
+        margin-top: 20px;
+    }
+    .section2row1{
+       margin-top: 0px;
+    }
+}

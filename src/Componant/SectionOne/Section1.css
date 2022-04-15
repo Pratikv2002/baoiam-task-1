@@ -1,0 +1,272 @@
+.section1 {
+   margin-top: 50px;
+   background-color: white;
+   padding: 40px;
+ }
+ .section1Container {
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+ .row1 {
+   text-align: center;
+   margin: 30px;
+ }
+ .imgSection1 {
+   height: 407px;
+   width: 457px;
+   margin-top: 70px;
+   /* padding-bottom: -100px;  */
+ }
+ .row1column2 {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+ }
+ .row1H1 {
+   color: rgb(32, 31, 31);
+   font-weight: 800;
+ }
+ .row1H5 {
+   font-size: 17px;
+   color: rgb(32, 31, 31);
+   font-weight: 600;
+ }
+ .H6 {
+   margin-top: 30px;
+   margin-bottom: 15px;
+ }
+ .newform {
+   border-radius: 10px;
+   width: 450px;
+   margin: auto;
+   text-align: center;
+   background-color: whitesmoke;
+   /* width: 29rem; */
+ }
+ .newform h4 {
+   margin-top: 10px;
+   font-weight: 800;
+ }
+ .newform h6 {
+   color: rgb(32, 30, 30);
+   font-size: 15px;
+   font-weight: 500;
+ }
+ .newform h5 {
+   padding: 10px;
+   font-weight: 600;
+   font-size: 20px;
+ }
+ .form {
+   display: flex;
+   flex-direction: column;
+ }
+ .form input,
+ .form select,
+ .form button {
+   border-style: solid;
+   border-width: 1px;
+   border-color: grey;
+   border-radius: 7px;
+   padding: 5px;
+   margin: 10px 20px;
+   outline: none;
+ }
+ .form select {
+   height: auto;
+   width: auto;
+   outline: none;
+   box-shadow: none;
+ }
+ .mobileNoDiv {
+   /* display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    overflow-y: visible; */
+ }
+ .mobileNoDiv input {
+   width: 91%;
+ }
+ .mobileNoDiv button {
+   /* position: absolute; */
+   /* border-color:blue; */
+   background-color: #0a60a6;
+   color: white;
+   font-weight: 400;
+   font-size: 13px;
+   /* right: 275px; */
+   padding: 7px 5px;
+ }
+ .tryNowBtn {
+   border-radius: 7px;
+   padding: 15px;
+   /* border-color:blue; */
+   background-color: #0a6aa6;
+   margin: 20px;
+   font-size: 20px;
+   letter-spacing: 3px;
+   word-spacing: 7px;
+   margin-bottom: 30px !important;
+   color: white;
+   font-weight: 600;
+ }
+ input:empty {
+   font-size: 0.8em;
+ }
+ input {
+   font-size: 1em !important;
+ }
+ 
+ .error p {
+   color: red;
+   font-size: 0.8em;
+   text-align: start;
+   padding: 0px 5px 0px 20px;
+   margin: 0px !important;
+ }
+ .errorFinal {
+   margin-top: -20px;
+   color: red;
+ }
+ .errorFinal p {
+   color: red;
+ }
+ .otpDiv p {
+   color: green;
+   font-size: 12px;
+   text-align: center;
+   /* margin-left: 23px; */
+   padding: 0px;
+ }
+ .otp {
+   display: flex;
+   justify-content: center;
+ }
+ .otpDiv input {
+   /* display: flex; */
+   margin-top: 0px;
+   width: 70px;
+ }
+ .otpDiv h6 {
+   padding-top: 5px;
+   color: red;
+ }
+ #id {
+   /* position: absolute; */
+   /* border-color:blue; */
+   background-color: #0fa60a !important;
+   color: rgb(114, 33, 33);
+   font-weight: 400;
+   font-size: 13px;
+   /* right: 295px; */
+   padding: 8px 5px;
+   /* margin-top: 10px; */
+   border-radius: 10px;
+ }
+ .studentClassName {
+   display: flex;
+   justify-content: center;
+ }
+ .studentClassInside {
+   justify-content: start;
+   text-align: left;
+ }
+@media screen and (max-width: 1100px) {
+  .imgSection1 {
+    height: 380px;
+    width: 420px;
+  }
+  .section1Container {
+    padding: 0px;
+  }
+  .row1 {
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .row1H1 {
+    font-size: 2.1em;
+  }
+  .row1H5 {
+    font-size: 15px;
+  }
+  .imgSection1 {
+    height: 300px;
+    width: 330px;
+  }
+  .newform {
+    width: 350px;
+  }
+  .form input,
+  .form select,
+  .form button {
+    margin: 10px 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .section1Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgSection1 {
+    margin-top: 10px;
+    height: 200px;
+    width: 230px;
+  }
+  .section1 {
+    padding: 10px 20px 10px;
+  }
+  .row1H1 {
+    font-size: 1.5em;
+  }
+  .row1H5 {
+    font-size: 13px;
+  }
+  .newform h4 {
+    font-size: 1em;
+  }
+  .newform h5 {
+    font-size: 1em;
+  }
+  .newform h6 {
+    font-size: 0.8em;
+  }
+  .row1 {
+    margin: 0px 10px;
+  }
+  .newform {
+    width: 350px;
+  }
+  .form input,
+  .form select,
+  .form button {
+    font-size: 0.8em !important;
+  }
+  .mobileNoDiv input {
+    width: 92%;
+    margin: 0px 0px !important;
+  }
+  .studentClassInside label {
+    font-size: 0.8em;
+  }
+  .newform h5 {
+    font-size: 0.9em;
+  }
+  .otpDiv input {
+    /* display: flex; */
+    width: 70px !important;
+    margin: 0px 10px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .newform {
+    width: 320px;
+  }
+}
