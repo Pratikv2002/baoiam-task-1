@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/baoiam-task-1/static/css/main.849672a2.css",
+    "main.js": "/baoiam-task-1/static/js/main.5861e261.js",
+    "static/js/787.8507bc3b.chunk.js": "/baoiam-task-1/static/js/787.8507bc3b.chunk.js",
+    "static/media/Logo.png": "/baoiam-task-1/static/media/Logo.c03cc1163c21ba5dd245.png",
+    "static/media/Google-play-badge.png": "/baoiam-task-1/static/media/Google-play-badge.f902960a94878ee0da67.png",
+    "index.html": "/baoiam-task-1/index.html",
+    "main.849672a2.css.map": "/baoiam-task-1/static/css/main.849672a2.css.map",
+    "main.5861e261.js.map": "/baoiam-task-1/static/js/main.5861e261.js.map",
+    "787.8507bc3b.chunk.js.map": "/baoiam-task-1/static/js/787.8507bc3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.849672a2.css",
+    "static/js/main.5861e261.js"
+  ]
+}
